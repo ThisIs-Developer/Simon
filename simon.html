@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon</title>
+    <link rel="stylesheet" href="simon.css">
+    <link rel="shortcut icon" href="assets/favicon1.png" type="image/x-icon">
+    <audio id="gameOverSound" src="assets/game-over.mp3"></audio>
+    <audio id="flashSound" src="assets/flash.mp3"></audio>
+</head>
+<body>
+    <h1>Simon Says Hi!</h1>
+    <h2>Press any key to start the game</h2>
+    <h3 id="highest-score">Highest Score: 0</h3>
+
+    <div class="btn-container">
+        <div class="line-one">
+            <div class="btn green" type="button" id="green"></div>
+            <div class="btn yellow" type="button" id="yellow"></div>
+        </div>
+        <div class="line-two">
+            <div class="btn red" type="button" id="red"></div>
+            <div class="btn blue" type="button" id="blue"></div>
+        </div>
+    </div>
+    <script src="simon.js"></script>
+</body>
+</html>
