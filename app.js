@@ -3,12 +3,11 @@ let userSeq = [];
 let btns = ["green", "red", "yellow", "blue"];
 let started = false;
 let level = 0;
-let highestScore = localStorage.getItem("highestScore") || 0; // Retrieve highest score from local storage
+let highestScore = localStorage.getItem("highestScore") || 0;
 
 let h2 = document.querySelector("h2");
 let highestScoreElement = document.getElementById("highest-score");
 
-// Set the initial highest score
 highestScoreElement.textContent = `Highest Score: ${highestScore}`;
 
 document.addEventListener("keypress", function () {
@@ -47,11 +46,10 @@ function levelUp() {
   gameSeq.push(randColor);
   gameFlash(randBtn);
 
-  // Update highest score if the current level is higher
   if (level > highestScore) {
     highestScore = level;
     highestScoreElement.textContent = `Highest Score: ${highestScore}`;
-    localStorage.setItem("highestScore", highestScore); // Store the new highest score in local storage
+    localStorage.setItem("highestScore", highestScore); 
   }
 }
 
