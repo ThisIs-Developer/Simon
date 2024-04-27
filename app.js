@@ -1,12 +1,27 @@
 document.addEventListener("DOMContentLoaded", function () {
+  if (window.matchMedia("(max-width: 768px)").matches || window.matchMedia("(max-width: 1200px)").matches) {
+      document.getElementById("warningBox").style.display = "block";
+  } else {
+      setTimeout(function () {
+          document.querySelector(".preloader").classList.add("fade-out");
+          document.getElementById("howToPlayBtn").style.display = "block";
+      }, 1500);
+      setTimeout(function () {
+          document.querySelector(".preloader").style.display = "none";
+      }, 1500);
+  }
+});
+
+function closeWarning() {
+  document.getElementById("warningBox").style.display = "none";
   setTimeout(function () {
       document.querySelector(".preloader").classList.add("fade-out");
       document.getElementById("howToPlayBtn").style.display = "block";
-  }, 1500);
+  }, 500);
   setTimeout(function () {
       document.querySelector(".preloader").style.display = "none";
   }, 1500);
-});
+}
 
 let gameSeq = [];
 let userSeq = [];
