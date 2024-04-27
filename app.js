@@ -2,6 +2,9 @@ document.addEventListener("DOMContentLoaded", function () {
   setTimeout(function () {
       document.querySelector(".preloader").classList.add("fade-out");
   }, 1500);
+  setTimeout(function () {
+      document.querySelector(".preloader").style.display = "none";
+  }, 1500);
 });
 
 let gameSeq = [];
