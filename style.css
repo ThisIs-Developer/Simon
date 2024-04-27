@@ -114,6 +114,10 @@ h1 {
         font-size: 3rem;
     }
 
+    h2 ,h3 {
+        font-size: 1.5rem;
+    }
+
     .btn {
         width: 150px;
         height: 150px;
