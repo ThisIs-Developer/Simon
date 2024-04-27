@@ -1,3 +1,9 @@
+document.addEventListener("DOMContentLoaded", function () {
+  setTimeout(function () {
+      document.querySelector(".preloader").classList.add("fade-out");
+  }, 1500);
+});
+
 let gameSeq = [];
 let userSeq = [];
 let btns = ["green", "red", "yellow", "blue"];
@@ -65,7 +71,7 @@ function checkAns(idx) {
     h2.innerHTML = `Game Over! <br> Your score: <b>${level}</b> <br> Press any key to start.`;
     document.querySelector("body").style.backgroundColor = "red";
     setTimeout(function () {
-      document.querySelector("body").style.backgroundColor = "white";
+      document.querySelector("body").style.backgroundColor = "black";
     }, 200);
     reset();
   }
