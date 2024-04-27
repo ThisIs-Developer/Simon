@@ -1,6 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
   setTimeout(function () {
       document.querySelector(".preloader").classList.add("fade-out");
+      document.getElementById("howToPlayBtn").style.display = "block";
   }, 1500);
   setTimeout(function () {
       document.querySelector(".preloader").style.display = "none";
@@ -100,4 +101,12 @@ function reset() {
   gameSeq = [];
   userSeq = [];
   level = 0;
+}
+
+function showInstructions() {
+  document.getElementById("dialogBox").style.display = "block";
+}
+
+function closeInstructions() {
+  document.getElementById("dialogBox").style.display = "none";
 }
