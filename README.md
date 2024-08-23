@@ -1,6 +1,5 @@
 # Simon Game 🎮
-![Screenshot 2024-05-28 223701](https://github.com/ThisIs-Developer/Simon/assets/169576921/7df12565-6af3-4e5c-a31e-8bffc77395b4)
-
+![334510606-7df12565-6af3-4e5c-a31e-8bffc77395b4](https://github.com/user-attachments/assets/4e8ba33b-99b4-451a-9f2d-ddd2b6fbe779)
 
 ## Description ℹ️
 
@@ -14,8 +13,10 @@ This repository contains a digital version of the classic electronic **game Simo
 - Difficulty increases as the game progresses.
 
 ## UI 🎮
-![Screenshot 2024-05-28 223206](https://github.com/ThisIs-Developer/Simon/assets/169576921/896bf89a-fbaf-4d7d-84db-b6cb1b79ab44)
-![Screenshot 2024-05-28 223559](https://github.com/ThisIs-Developer/Simon/assets/169576921/9680f08f-fd95-4f6e-8f2d-625f530d582c)
+
+![334506566-896bf89a-fbaf-4d7d-84db-b6cb1b79ab44](https://github.com/user-attachments/assets/728ba7ad-36af-4acb-b724-a0ccaf3e398f)
+![334507499-9680f08f-fd95-4f6e-8f2d-625f530d582c](https://github.com/user-attachments/assets/3896d3ec-e656-47bc-a657-e34857c04db7)
+
 
 ## Technologies Used 📝
 
