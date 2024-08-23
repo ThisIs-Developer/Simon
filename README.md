@@ -1,5 +1,5 @@
 # Simon Game 🎮
-![Screenshot 2024-05-28 223701](https://github.com/iam-baivab/Simon/assets/169576921/7df12565-6af3-4e5c-a31e-8bffc77395b4)
+![Screenshot 2024-05-28 223701](https://github.com/ThisIs-Developer/Simon/assets/169576921/7df12565-6af3-4e5c-a31e-8bffc77395b4)
 
 
 ## Description ℹ️
@@ -14,8 +14,8 @@ This repository contains a digital version of the classic electronic **game Simo
 - Difficulty increases as the game progresses.
 
 ## UI 🎮
-![Screenshot 2024-05-28 223206](https://github.com/iam-baivab/Simon/assets/169576921/896bf89a-fbaf-4d7d-84db-b6cb1b79ab44)
-![Screenshot 2024-05-28 223559](https://github.com/iam-baivab/Simon/assets/169576921/9680f08f-fd95-4f6e-8f2d-625f530d582c)
+![Screenshot 2024-05-28 223206](https://github.com/ThisIs-Developer/Simon/assets/169576921/896bf89a-fbaf-4d7d-84db-b6cb1b79ab44)
+![Screenshot 2024-05-28 223559](https://github.com/ThisIs-Developer/Simon/assets/169576921/9680f08f-fd95-4f6e-8f2d-625f530d582c)
 
 ## Technologies Used 📝
 
@@ -28,7 +28,7 @@ This repository contains a digital version of the classic electronic **game Simo
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/iam-baivab/Simon.git
+   git clone https://github.com/ThisIs-Developer/Simon.git
    ```
 
 2. Open the `index.html` file in your web browser.
