@@ -17,8 +17,11 @@
         </h1>
     </div>
     <h1>Simon Says</h1>
-    <h2>Press any key to start the game</h2>
+    <h2 id="startIns">Press any key or the start button to begin the game</h2>
+    <button id="restartBtn" class="restart-btn" style="display: none;" onclick="reset()">Restart Game</button>
     <h3 id="highest-score">Highest Score: 0</h3>
+    
+    <button id="startBtn" class="start-btn">Start Game</button>
 
     <div class="btn-container">
         <div class="line-one">
@@ -32,7 +35,7 @@
     </div>
 
     <div class="how-to-play-btn" id="howToPlayBtn" style="display: none;" onclick="showInstructions()">How to play</div>
-    
+
     <div class="dialog-box" id="dialogBox">
         <div class="dialog-content">
             <h2>How to Play</h2>
@@ -40,15 +43,6 @@
             <button onclick="closeInstructions()">Got it!</button>
         </div>
     </div>
-
-    <div class="warning-box" id="warningBox">
-        <div class="warning-content">
-            <h2>Warning!</h2>
-            <p>This game is not compatible with your device. Please open the game on a computer.</p>
-            <button onclick="closeWarning()">Got it!</button>
-        </div>
-    </div>
-    
     
     <script src="app.js"></script>
 </body>

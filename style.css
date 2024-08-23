@@ -52,6 +52,10 @@ h1 {
     margin: 1rem;
 }
 
+h2 {
+    margin: 1rem;
+}
+
 .btn {
     width: 200px;
     height: 200px;
@@ -85,7 +89,7 @@ h1 {
 .flash {
     background-color: white;
 }
-  
+
 .userflash {
     background-color: white;
 }
@@ -94,7 +98,7 @@ h1 {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-color: #007bff;
+    background-color: #FF204E;
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
@@ -111,7 +115,7 @@ h1 {
     border-radius: 10px;
     display: none;
     z-index: 1001;
-    background-color: black;
+    background-color: #00224D;
     color: white;
     border: 2px solid white;
 }
@@ -129,7 +133,7 @@ h1 {
 }
 
 .dialog-content button {
-    background-color: #007bff;
+    background-color: #FF204E;
     color: white;
     padding: 8px 16px;
     border-radius: 5px;
@@ -138,41 +142,29 @@ h1 {
     margin-bottom: 20px;
 }
 
-.warning-box {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 20px;
-    border-radius: 10px;
+.start-btn {
     display: none;
-    z-index: 1002;
-    background-color: red;
-    color: white;
-    border: 2px solid white;
-}
-
-.warning-content {
-    text-align: center;
-}
-
-.warning-content h2 {
-    margin-bottom: 10px;
-}
-
-.warning-content p {
-    margin-bottom: 20px;
-}
-
-.warning-content button {
-    background-color: white;
-    color: red;
-    padding: 8px 16px;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border: none;
     border-radius: 5px;
-    border: 2px solid white;
+    background-color: #28a745;
+    color: white;
     cursor: pointer;
 }
 
+.restart-btn {
+    display: none;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
 
 @media screen and (max-width: 1200px) {
     .btn {
@@ -192,10 +184,21 @@ h1 {
         align-items: center;
         flex-direction: column;
     }
+
+    .start-btn {
+        display: block;
+    }
+
+    #startIns {
+        display: none;
+    }
+
+    .restart-btn {
+        display: block;
+    }
 }
 
 @media screen and (max-width: 768px) {
-    
     h1 {
         font-size: 3rem;
     }
@@ -223,7 +226,18 @@ h1 {
         width: 70%;
     }
 
-    .warning-box {
-        width: 70%;
+    .start-btn {
+        display: block;
+    }
+
+    #startIns {
+        display: none;
+    }
+
+    .restart-btn {
+        display: block;
     }
 }
+
+
+
